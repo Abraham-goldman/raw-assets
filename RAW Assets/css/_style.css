@@ -1,0 +1,48 @@
+/* CSS imports */
+@import url(assets/_cssreset.css);
+@import url(assets/_utility.css);
+@import url(assets/_header.css);
+@import url(assets/_menu.css);
+@import url(assets/_plans.css);
+@import url(assets/_footer.css);
+@import url(assets/_aboutus.css);
+@import url(assets/_contactus.css);
+@import url(assets/_faq.css);
+
+/* Vazir cdn */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');*/
+/* body{
+   font-family: 'Vazirmatn', sans-serif;
+  } */
+  
+/*  Vazir  */
+@font-face {
+  font-family: Vazir Code;
+  src: url('../font/vazir/Vazir-Code.eot');
+  src: url('../font/vazir/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+       url('../font/vazir/Vazir-Code.woff') format('woff'),
+       url('../font/vazir/Vazir-Code.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir Code Hack;
+  src: url('../font/vazir/Vazir-Code-Hack.eot');
+  src: url('../font/vazir/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+       url('../font/vazir/Vazir-Code-Hack.woff') format('woff'),
+       url('../font/vazir/Vazir-Code-Hack.ttf') format('truetype');
+  font-weight: normal;
+}
+
+pre, code {
+  font-family: 'Vazir Code', monospaced, sans-serif;
+}
+  /* font assignment */
+body{
+  font-family: 'Vazir Code', monospaced, sans-serif;
+}
+  .logo{
+    width: 40px;
+    height: 25px;
+  }
